@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout Website</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Membuat HEADER -->
+         <div class="header">
+            <h1>Welcome...</h1>
+         </div>
+         <!-- membuat navigator menu -->
+          <div class="topnav">
+            <a href="index.html">Biodata</a>
+            <a href="table_merge.html">Table</a>
+            <a href="list.html">List</a>
+            <a href="#">STS</a>
+          </div>
+          <!-- Membuat Content -->
+           <div class="row">
+            <body>
+        <div class="falling-container">
+    <img src="lntrn.png" class="falling-item item1" alt="falling element">
+    <img src="lntrn.png" class="falling-item item2" alt="falling element">
+    <img src="lntrn.png" class="falling-item item3" alt="falling element">
+    <img src="lntrn.png" class="falling-item item4" alt="falling element">
+    <img src="lntrn.png" class="falling-item item5" alt="falling element">
+    </div>
+
+<img src="image-removebg-preview (22).png" class="ivy ivy-left">
+<img src="image-removebg-preview (22).png" class="ivy ivy-right">
+
+<script>
+document.addEventListener("mousemove", function(e) {
+    const sparkle = document.createElement("span");
+
+    sparkle.className = "sparkle";
+    sparkle.innerHTML = "✦";
+
+    sparkle.style.left = e.clientX + "px";
+    sparkle.style.top = e.clientY + "px";
+
+    document.body.appendChild(sparkle);
+
+    setTimeout(() => {
+        sparkle.remove();
+    }, 700);
+});
+</script>
+
+        <center>
+            <h2>Selamat Datang di Web Pertama Saya</h2>
+            <h1>BIODATA DIRI</h1>
+        </center>
+
+        <div class="biodata">
+            <div class="content">
+                <div class="foto">
+                    <img src="kaylagede.jpeg" alt="Foto Kayla" class="top">
+                    <img src="kaylakecil.jpeg" alt="Foto Kecil Kayla" class="bottom">
+                </div>
+
+                <div class="isi">
+                    <p><b>Nama Lengkap :</b> Kayla Fatima Lie</p>
+                    <p><b>Tanggal Lahir :</b> 21 Januari 2012</p>
+                    <p><b>Tempat Lahir :</b> Jakarta</p>
+                    <p><b>Alamat :</b> Sunter, Jakarta Utara</p>
+                    <p><b>Instagram :</b> @kaylafatima_</p>
+                    <p><b>Hobi :</b> Menonton film dan Mendengarkan musik</p>
+                    <p><b>Motto :</b> "Life is too short to wait for the perfect moment. Smile more, enjoy the journey and try new things while you still can.”</p>
+                    <p><b>Pesan :</b> Be Yourself</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+    <h2>Makanan Favorit</h2>
+</div>
+
+        <div class="food-container">
+            <div class="polaroid">
+                <p>Pisang Goreng</p>
+                <img src="pisgor.jpg" alt="pisgor">
+            </div>
+            <div class="polaroid">
+                <p>Jagung</p>
+                <img src="28875f0c08bd4b02e5b30aa4238bf6f4.jpg" alt="jagung">
+            </div>
+            <div class="polaroid">
+                <p>Salmon</p>
+                <img src="salmon.jpg" alt="salmon">
+            </div>
+            <div class="polaroid">
+                <p>Spam Musubi</p>
+                <img src="spam.jpg" alt="spam musubi">
+            </div>
+            <div class="polaroid">
+                <p>Unagi</p>
+                <img src="unagi.jpg" alt="unagi">
+            </div>
+        </div>
+
+      
+
+<div style="text-align: center;">
+    <h2>Destinasi Favorit: DISNEY!</h2>
+</div>
+
+      <div class="destinasi-container">
+            <div class="polaroid">
+                <p>Disneyland</p>
+                <img src="disneyland.jpg" alt="disneyland">
+            </div>
+            <div class="polaroid">
+                <p>Disney Sea</p>
+                <img src="disneysea.jpg" alt="disneysea">
+            </div>
+            <div class="polaroid">
+                <p>Disney Cruise</p>
+                <img src="disneycruise.jpg" alt="disney cruise">
+            </div>
+            <div class="polaroid">
+                <p>Disney Hotel</p>
+                <img src="disneyhotel.jpeg" alt="disney hotel">
+            </div>
+            <div class="polaroid">
+                <p>Disney Studios</p>
+                <img src="disneystudio.jpg" alt="disney studios">
+            </div>
+        </div>
+    
+            <div style="text-align: center;">
+    <h2>Hewan Favorit</h2>
+</div>
+
+      <div class="hewan-container">
+            <div class="polaroid">
+                <p>Blue</p>
+                <img src="blue5.jpg" alt="blue">
+            </div>
+            <div class="polaroid">
+                <p>Blue kedua</p>
+                <img src="blue1.jpg" alt="blue">
+            </div>
+            <div class="polaroid">
+                <p>Blue.. again</p>
+                <img src="blue4.jpg" alt="blue">
+            </div>
+            <div class="polaroid">
+                <p>Blue..?</p>
+                <img src="blue3.jpg" alt="blue">
+            </div>
+            <div class="polaroid">
+                <p>BLUEEE</p>
+                <img src="blue2.jpg" alt="blue">
+            </div>
+        </div>
+
+<audio controls loop>
+    <source src="I See the Light (From Tangled)  Instrumental.mp3" type="audio/mpeg">
+</audio>
+
+        </div>
+           <!-- Membuat Footer -->
+            <div class="Footer">
+                <h2>Kayla IX-1/21</h2>
+            </div>
+    </body>
+</html>
